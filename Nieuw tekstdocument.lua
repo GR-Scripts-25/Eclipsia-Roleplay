@@ -202,27 +202,6 @@ QBShared.Items = {
 
     --food
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     --drinks
     sprunk_cola   = { name = 'sprunk_cola', label = 'Sprunk Cola', weight = 1000, type = 'item', image = 'sprunk_cola.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing cola drink' },
     sprunk_orange = { name = 'sprunk_orange', label = 'Sprunk Orange', weight = 1000, type = 'item', image = 'sprunk_orange.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing orange drink' },
