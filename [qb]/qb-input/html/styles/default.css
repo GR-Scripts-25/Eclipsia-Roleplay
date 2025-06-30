@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    /* Nieuwe kleuren gebaseerd op je voorbeeld */
+    --Button-BG: rgba(30, 30, 30, 0.9);
+    --Button-Hover-BG: rgba(50, 50, 50, 0.9);
+    --Border-Color: rgba(255, 255, 255, 0.1);
+    --Text-Color: #ffffff;
+    --Subtext-Color: #a0a0a0;
+    --Scrollbar-Color: rgba(24, 23, 23, 0.25);
+    --Icon-BG: rgba(0, 0, 0, 0.4);
+
+    /* Shapes */
+    --radius-small: 4px;
+    --radius-medium: 6px;
+    --radius-large: 8px;
+
+    /* Font */
+    --font-primary: "Poppins", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-primary) !important;
+    font-weight: var(--font-weight-regular);
+    color: var(--Text-Color);
+    box-sizing: border-box;
+}
+
+.root-wrapper {
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    width: 300px;
+    padding: 0;
+    background: transparent !important;
+}
+
+html,
+body {
+    background: transparent !important;
+}
+
+.main-wrapper {
+    background: transparent;
+    padding: 0 12px 0 0;
+    max-height: 65vh;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    display: none; /* Blijft verborgen tot geactiveerd */
+}
+
+.heading {
+    background: var(--Button-BG);
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.heading h1 {
+    font-size: 1rem;
+    font-weight: var(--font-weight-semibold);
+    margin: 0;
+}
+
+.form {
+    width: 100%;
+    background: transparent;
+}
+
+.form label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    color: var(--Subtext-Color);
+}
+
+.form-control[type="text"],
+.form-control[type="number"],
+.form-control[type="password"] {
+    background: var(--Button-BG);
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+}
+
+.form-control[type="text"]:focus,
+.form-control[type="number"]:focus,
+.form-control[type="password"]:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.3);
+    background: var(--Button-Hover-BG);
+}
+
+.form-control[type="color"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    background: var(--Button-BG);
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.form-input-group {
+    background: var(--Button-BG);
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.form-group-title {
+    font-size: 0.85rem;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 8px;
+    color: var(--Text-Color);
+}
+
+.form-select {
+    width: 100%;
+    background: var(--Button-BG);
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    color: var(--Text-Color);
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.3);
+    background: var(--Button-Hover-BG);
+}
+
+.btn {
+    width: 100%;
+    background: var(--Button-BG);
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    padding: 10px 12px;
+    font-size: 0.9rem;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--Button-Hover-BG);
+}
+
+.label {
+    background: var(--Button-BG);
+    border: 1px solid var(--Border-Color);
+    border-radius: var(--radius-medium);
+    padding: 10px 12px;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+/* Scrollbar aanpassingen */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 8px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--Scrollbar-Color);
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+}
