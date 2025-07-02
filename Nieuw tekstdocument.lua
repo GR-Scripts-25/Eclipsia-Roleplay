@@ -203,15 +203,19 @@ QBShared.Items = {
     --food
 
     --drinks
-    sprunk_cola   = { name = 'sprunk_cola', label = 'Sprunk Cola', weight = 1000, type = 'item', image = 'sprunk_cola.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing cola drink' },
-    sprunk_orange = { name = 'sprunk_orange', label = 'Sprunk Orange', weight = 1000, type = 'item', image = 'sprunk_orange.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing orange drink' },
-    sprunk_lemon  = { name = 'sprunk_lemon', label = 'Sprunk Lemon', weight = 1000, type = 'item', image = 'sprunk_lemon.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing lemon drink' },
-    sprunk_energy = { name = 'sprunk_energy', label = 'Sprunk Energy', weight = 1000, type = 'item', image = 'sprunk_energy.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing energy drink' },
+    sprunk_cola               = { name = 'sprunk_cola', label = 'Sprunk Cola', weight = 1000, type = 'item', image = 'sprunk_cola.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing cola drink' },
+    sprunk_orange             = { name = 'sprunk_orange', label = 'Sprunk Orange', weight = 1000, type = 'item', image = 'sprunk_orange.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing orange drink' },
+    sprunk_lemon              = { name = 'sprunk_lemon', label = 'Sprunk Lemon', weight = 1000, type = 'item', image = 'sprunk_lemon.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing lemon drink' },
+    sprunk_energy             = { name = 'sprunk_energy', label = 'Sprunk Energy', weight = 1000, type = 'item', image = 'sprunk_energy.png', unique = false, useable = true, shouldClose = true, description = 'A refreshing energy drink' },
 
-
-
-
-
+    --license
+    id_card        = { name = 'id_card', label = 'ID Card', weight = 0, type = 'item', image = 'id_card.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your information to identify yourself' },
+    driver_license = { name = 'driver_license', label = 'Drivers License', weight = 0, type = 'item', image = 'driver_license.png', unique = true, useable = true, shouldClose = false, description = 'Drivers License' },
+    boat_license   = { name = 'boat_license', label = 'Boat License', weight = 0, type = 'item', image = 'boat_license.png', unique = true, useable = true, shouldClose = true, description = 'Boat License' },
+    pilot_license  = { name = 'pilot_license', label = 'Pilot License', weight = 0, type = 'item', image = 'pilot_license.png', unique = true, useable = true, shouldClose = true, description = 'Pilot License' },
+    motor_license  = { name = 'motor_license', label = 'Motorcycle License', weight = 0, type = 'item', image = 'motor_license.png', unique = true, useable = true, shouldClose = true, description = 'Motorcycle License' },
+    truck_license  = { name = 'truck_license', label = 'Truck License', weight = 0, type = 'item', image = 'truck_license.png', unique = true, useable = true, shouldClose = true, description = 'Truck License' },
+    weaponlicense  = { name = 'weaponlicense', label = 'Weapon License', weight = 0, type = 'item', image = 'weapon_license.png', unique = true, useable = true, shouldClose = true, description = 'Weapon License' },
 
 
 }

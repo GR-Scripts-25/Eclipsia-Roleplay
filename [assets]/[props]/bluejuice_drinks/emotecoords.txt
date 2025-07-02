@@ -1,0 +1,72 @@
+   ["bluejuicepeach"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_peach',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuiceultra"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_ultra',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuicelemon"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_lemon',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuicemango"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_mango',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuicegrape"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_grape',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuicechillice"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_chillice',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuiceblueberry"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_blueberry',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuiceberry"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_berry',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+      ["bluejuiceapple"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+   {
+       Prop = 'bluexfm_bluejuice_apple',
+       PropBone = 28422,
+       PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
